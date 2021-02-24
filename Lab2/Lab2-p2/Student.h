@@ -11,7 +11,7 @@ private:
 	float engl;
 	float hist;
 public:
-	void Init(char stud);
+	void Init();
 	void CmpName(char name1[], char name2[]);
 	void Math(int math1,int math2);
 	void English(int engl1, int engl2);
