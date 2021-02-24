@@ -7,12 +7,11 @@ class Student
 {
 private:
 	char name[50];
-	int math;
-	int engl;
-	int hist;
-	double average;
+	float math;
+	float engl;
+	float hist;
 public:
-	void Init();
+	void Init(char stud);
 	void CmpName(char name1[], char name2[]);
 	void Math(int math1,int math2);
 	void English(int engl1, int engl2);
