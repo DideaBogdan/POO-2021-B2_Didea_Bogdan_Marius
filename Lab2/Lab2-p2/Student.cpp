@@ -27,3 +27,8 @@ void Student::Init()
 	}
 
 }
+
+void Student::Print()
+{
+	cout << "Name: " << name << "; Math: " << math << "; English: " << engl << "; History: " << hist;
+}
