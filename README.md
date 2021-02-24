@@ -1,3 +1,1 @@
-# poo_surse
-
-linie noua
+POO-2021-B2_Didea_Bogdan_Marius
