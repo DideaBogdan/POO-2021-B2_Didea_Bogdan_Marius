@@ -1,8 +1,14 @@
+#include "NumberList.h"
 
-
-#include <iostream>
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    NumberList nl;
+   // NumberList* nl = new NumberList;
+
+    nl.Init();
+
+    nl.Print();
+
+
 }
