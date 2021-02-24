@@ -5,9 +5,10 @@ int main()
     NumberList nl;
     nl.Init();
     int x;
-    cin >> x;
-    while (nl.Add(x) == true)
+    do
+    {
         cin >> x;
+    } while (nl.Add(x) == true);
     nl.Sort();
     nl.Print();
     return 0;
