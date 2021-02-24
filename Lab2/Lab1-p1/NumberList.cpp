@@ -7,9 +7,10 @@ void NumberList::Init()
 
 bool NumberList::Add(int x)
 {
-	numbers[++count] = x;
-	if (count > 10) return 0;
-	return 1;
+	count = count + 1;
+	numbers[count] = x;
+	if (count > 10) return false;
+	else return true;
 }
 
 void NumberList::Sort()
