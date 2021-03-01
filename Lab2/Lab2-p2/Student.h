@@ -10,13 +10,14 @@ private:
 	float math;
 	float engl;
 	float hist;
+	float average;
 public:
 	void Init();
 	void Print();
-	void CmpName(char name1[], char name2[]);
-	void Math(int math1,int math2);
-	void English(int engl1, int engl2);
-	void History(int hist1, int hist2);
-	void CmpAverage(double av1, double av2);
+	void Name(Student stud1, Student stud2);
+	void Math(Student stud1, Student stud2);
+	void English(Student stud1, Student stud2);
+	void History(Student stud1, Student stud2);
+	void Average(Student stud1, Student stud2);
 };
 

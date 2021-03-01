@@ -25,10 +25,12 @@ void Student::Init()
 		cout<< "Wrong input, insert a number between 1 and 10 \n";
 		cin >> hist;
 	}
-
+	average = (math + engl + hist) / 3;
 }
 
 void Student::Print()
 {
-	cout << "Name: " << name << "; Math: " << math << "; English: " << engl << "; History: " << hist;
+	cout << "Name: " << name << "; Math: " << math << "; English: " << engl << "; History: " << hist<<"; Average: "<<average;
 }
+
+
