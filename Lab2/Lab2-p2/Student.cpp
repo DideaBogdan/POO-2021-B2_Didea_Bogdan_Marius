@@ -33,4 +33,28 @@ void Student::Print()
 	cout << "Name: " << name << "; Math: " << math << "; English: " << engl << "; History: " << hist<<"; Average: "<<average;
 }
 
+char* Student::Name()
+{
+	return name;
+}
 
+
+float Student::Math()
+{
+	return math;
+}
+
+float Student::English()
+{
+	return engl;
+}
+
+float Student::History()
+{
+	return hist;
+}
+
+float Student::Average()
+{
+	return average;
+}
