@@ -43,12 +43,16 @@ int Math::Mul(double x, double y, double z)
 int Math::Add(int count, ...)
 {
 	va_list lista;
-
+	int sum = 0;
 	va_start(lista, count);
 	for (int i = 0; i < count; i++)
-		cout << va_arg(lista, int) << endl;
-
+		sum = sum + va_arg(lista, int);
 	va_end(lista);
+	return sum;
+}
+
+char* Math::Add(const char* n, const char* m)
+{
 
 	return 0;
 }
