@@ -53,6 +53,13 @@ int Math::Add(int count, ...)
 
 char* Math::Add(const char* n, const char* m)
 {
-
-	return 0;
+	if (n == nullptr || m == nullptr)
+		return nullptr;
+	
+	int x = atoi(n);
+	int y = atoi(m);
+	int rez = x + y;
+	char p[50];
+	sprintf(p, "%d", rez);
+	return (char *)p;
 }

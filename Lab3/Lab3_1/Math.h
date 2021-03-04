@@ -2,6 +2,9 @@
 
 #include <iostream>
 #include <cstdarg>
+#include <string>
+#include <stdio.h>
+
 
 using namespace std;
 
@@ -18,6 +21,5 @@ public:
     static int Mul(double, double, double);
     static int Add(int count, ...); // sums up a list of integers
     static char* Add(const char*, const char*); //adunarea numerelor ca sir de caractere
-
 };
 
