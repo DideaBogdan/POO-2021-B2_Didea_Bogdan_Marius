@@ -138,6 +138,7 @@ void Sort::Print()
 {
 	for (int i = 0; i < count; i++)
 		cout << v[i] << " ";
+	cout << "\n";
 }
 
 int Sort::GetElementsCount()
