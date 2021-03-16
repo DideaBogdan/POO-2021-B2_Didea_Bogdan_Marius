@@ -2,7 +2,6 @@
 
 int main()
 {
-    /*
     cout << "Insert 4 numbers(Initialization list): ";
     int n1, n2, n3, n4;
     cin >> n1 >> n2 >> n3 >> n4;
@@ -139,15 +138,13 @@ int main()
         }
         cin >> x;
     }
-    */
     char sir[200];
     cout << "\nInsert a string with numbers separated by commas: ";
+    cin.get();
     cin.getline(sir, 200);
     Sort v5(sir);
-    v5.Print();
-    cin.get();
     cout << "0.End \n1.Insert sort descendent. \n2.Quick Sort. \n3.BubbleSort ascendent \n4.Print \n5.Get element count \n6.Get element from index\n";
-    int x;
+    cin.get();
     cin >> x;
     while (x != 0)
     {
