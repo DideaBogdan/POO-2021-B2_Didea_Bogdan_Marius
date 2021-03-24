@@ -10,11 +10,14 @@ class Circuit
 	Car* cars[100];
 	int nmbcars;
 public:
-	void SetLength(int L);
+	void SetLength(int l);
 	void SetWeather(Weather w);
 	void AddCar(Car* m);
 	void Race();
+	int Time(Car* m);
 	void ShowFinalRanks();
 	void ShowWhoDidNotFinis();
+	Circuit();
+
 };
 

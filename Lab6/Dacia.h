@@ -4,9 +4,9 @@
 
 class Dacia : public Car
 {
-	int Fuel() override;
-	int FuelConsumption() override;
-	int AverageSpeed(Weather w)  override;
-	const char* Name() override;
+	virtual int Fuel() override;
+	virtual int FuelConsumption() override;
+	virtual int AverageSpeed(Weather w)  override;
+	virtual const char* Name() override;
 };
 
