@@ -20,7 +20,7 @@ int Dacia::AverageSpeed(Weather w)
 		return 90;
 }
 
-const char* Name()
+const char* Dacia::Name()
 {
 	return "Dacia";
 }

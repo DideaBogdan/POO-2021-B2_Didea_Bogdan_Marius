@@ -11,8 +11,8 @@ class Circuit
 	int nmbcars;
 public:
 	void SetLength(int L);
-	void SetWeather(Wheather w);
-	void AddCar(Masina* m);
+	void SetWeather(Weather w);
+	void AddCar(Car* m);
 	void Race();
 	void ShowFinalRanks();
 	void ShowWhoDidNotFinis();
