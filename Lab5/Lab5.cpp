@@ -7,12 +7,8 @@ Number Get(Number n)
 
 int main()
 {
-	Number d("10110010", 2);
+	Number d("3", 10);
 	d.Print();
-	Number d1 = d;
-	d1.Print();
-	Number d2 = Get(d1);
-	d2.Print();
-
+	d.SwitchBase(2);
 	return 0;
 }

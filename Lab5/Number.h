@@ -3,7 +3,9 @@
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <iostream>
-#include <string.h>
+#include <string>
+#include <stdio.h>
+#include <stdlib.h>
 
 using namespace std;
 
@@ -16,7 +18,8 @@ public:
 	~Number();
 	Number(const Number& n);
 	Number(Number &&d);
-	//void SwitchBase(int newBase);
+	//friend char operator+ (Number n1, Number n2);
+	void SwitchBase(int newBase);
 	void Print();
 	//int GetDigitsCount();
 	//int GetBase();
