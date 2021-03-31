@@ -10,7 +10,7 @@ private:
     T array[Max];
     int count;
 public:
-    Vector() : count(0) {}
+    Vector() : count(0) { array[0] = 0; }
     void Push(const T &value)
     {
         array[count++] = value;
