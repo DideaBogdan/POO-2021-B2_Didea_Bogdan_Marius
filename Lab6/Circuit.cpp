@@ -33,9 +33,9 @@ int Circuit::Time(Car* m)
 void Circuit::Race()
 {
 	Car* aux;
-	for(int i=0;i<nmbcars-1;i++)
-		for(int j=i+1;j<nmbcars-2;j++)
-			if (Time(cars[i]) < Time(cars[j]))
+	for(int i=0;i<nmbcars-2;i++)
+		for(int j=i+1;j<nmbcars-1;j++)
+			if (Time(cars[i]) > Time(cars[j]))
 			{
 				aux = cars[i];
 				cars[i] = cars[j];
